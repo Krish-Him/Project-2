@@ -1,12 +1,12 @@
 # utils/config.py
 
 # NETWORK
-INTERFACE = "Wi-Fi"     # or "Ethernet"
+INTERFACES = ["eth0", "eth1"]   # or "Ethernet"
 CAPTURE_FILTER = "tcp"
 
 # DETECTION
-TIME_WINDOW = 5
-PORT_THRESHOLD = 20
+TIME_WINDOW = 15
+PORT_THRESHOLD = 5
 
 # DEFENSE
 PORT_RANGE_START = 20000
